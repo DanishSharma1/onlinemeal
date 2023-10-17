@@ -22,5 +22,5 @@ urlpatterns = [
 ]
 '''
 urlpatterns = [
-    path('django/', include('welcome.urls')),
+    path('', include('welcome.urls')),
 ]
