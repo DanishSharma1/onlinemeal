@@ -2,7 +2,7 @@ from django.urls import path
 from.import views
 
 urlpatterns = [
-    path('myonlinemeal1.azurewebsites.net/index/',views.index,name="index"),
+    path('myonlinemeal1.azurewebsites.net/',views.index,name="index"),
     #path('',views.xyz),
     path('index/add/',views.add, name='add'),
     path('index/add/hotel/',views.hotel,name='hotel'),
